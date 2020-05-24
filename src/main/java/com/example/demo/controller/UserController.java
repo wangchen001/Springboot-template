@@ -23,4 +23,9 @@ public class UserController {
     public String getUser(@PathVariable int id){
         return userService.queryUserInfoById(id).toString();
     }
+
+    @RequestMapping("/getUserByName/{name}")
+    public String getUserByName(@PathVariable String name){
+        return userService.queryUserInfoByName(name).toString();
+    }
 }

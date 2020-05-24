@@ -18,4 +18,8 @@ public class UserService {
     public User queryUserInfoById(int id){
         return userMapper.queryUserInfoById(id);
     }
+
+    public User queryUserInfoByName(String name){
+        return userMapper.queryUserInfoByName(name);
+    }
 }

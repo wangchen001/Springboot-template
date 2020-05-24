@@ -10,4 +10,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface UserMapper {
      User queryUserInfoById(int id);
+
+     User queryUserInfoByName(String name);
 }

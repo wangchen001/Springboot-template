@@ -7,7 +7,7 @@
         <result column="name" jdbcType="VARCHAR" property="name" />
         <result column="age" jdbcType="INTEGER" property="age" />
         <result column="address" jdbcType="VARCHAR" property="address" />
-        <result column="birthday" jdbcType="DATE" property="brithday" />
+        <result column="birthday" jdbcType="DATE" property="birthday" />
     </resultMap>
 
     <select id="queryUserInfoById" resultType="com.example.demo.entity.User">
